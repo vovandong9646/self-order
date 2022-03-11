@@ -17,7 +17,7 @@ function CompleteScreen() {
     if (order.orderItems.length > 0) {
       createOrder(dispatch, order);
     }
-  }, [order]);
+  }, [order, dispatch]);
 
   return (
     <Box className={[styles.root, styles.navy]}>

@@ -1,4 +1,4 @@
-import { Box, Button, Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material';
+import { Box, Button, Typography } from '@mui/material';
 import React from 'react';
 import { useStyles } from './../style';
 import { useNavigate } from 'react-router-dom';
