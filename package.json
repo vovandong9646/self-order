@@ -1,7 +1,6 @@
 {
   "name": "self-order",
   "version": "0.1.0",
-  "proxy": "https://pacific-journey-59638",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.8.1",
