@@ -1,0 +1,21 @@
+1. create HomeScreen
+    - tạo screen/HomeScreen
+    - add material ui bằng cách dùng npm
+    - setting các css cho HomeScreen sử dụng css custome và các thẻ của material ui
+2. Tạo choose order screen
+    - tạo giao diện (có 2 lựa chọn là 'Eat in' và 'Take out') -> sẽ redirect 2 màn hình khác nhau
+        - eatin: là màn hình đặt hàng (client đặt hàng)
+        - Takeout: là màn hình xem các thông tin đơn hàng đang đặt (quản lý đơn hàng)
+    - click vào HomeScreen -> redirect sang chooseScreen (dùng react-router-dom)
+        - dùng useNavigate hook để bắt sự kiện onclick ở màn hình Home
+        - setting react-router-dom ở app
+    - tạo context và reducer để xử lý (not truyền cha con)
+3. Màn hình order
+    - tạo api (để get sản phẩm)
+        + fake json-server để tạo api
+        + hoặc tạo ra con node để call tới mongoese tạo api (hiện tại làm theo cách này) - ở file server.js
+    - tạo giao diện
+    - onclick -> action.js -> reducer(store.js) -> save to state
+    - load categogires
+    - tạo products từ node + mongoese
+    - load products
